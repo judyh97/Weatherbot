@@ -52,7 +52,7 @@ if (time_difference <= 60){
   mention_text <- get_mention_df$text
   
   #gets rid of "@weatherbot96" from tweet text, replaces spaces with +
-  mention_text_2 <- gsub('@weatherbot96','',mention_text)
+  mention_text_2 <- gsub('ix_judy','',mention_text)
   mention_text_3 <- gsub(" ", "+", mention_text_2)
   
   userplace = mention_text_2
